@@ -37,16 +37,20 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: const [
-          SizedBox(
+        children: [
+          const SizedBox(
             child: Card(
               color: Colors.blue,
               child: Text('Gráfico'),
               elevation: 5,
             ),
           ),
-          Card(
-            child: Text('Lista de Transações'),
+          Column(
+            children: _transactions.map((tr) {
+              return Card(
+                child: Text(tr.title),
+              );
+            }).toList(),
           ),
         ],
       ),
