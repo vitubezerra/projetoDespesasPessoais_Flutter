@@ -1,6 +1,5 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
+import 'dart:math';
 import 'transaction_form.dart';
 import 'transaction_list.dart';
 import '../models/transaction.dart';
@@ -35,6 +34,7 @@ class _TransactionUserState extends State<TransactionUser> {
       value: value,
       date: DateTime.now(),
     );
+
     setState(() {
       _transactions.add(newTransaction);
     });
@@ -45,7 +45,7 @@ class _TransactionUserState extends State<TransactionUser> {
     return Column(
       children: [
         TransactionList(_transactions),
-        TransactionForm(),
+        TransactionForm(_addTransaction),
       ],
     );
   }
