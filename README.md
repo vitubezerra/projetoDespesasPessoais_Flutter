@@ -1,16 +1,5 @@
 # projetodespesaspessoais_flutter
 
-A new Flutter project.
+Esse projeto foi desenvolvido durante o curso de Flutter do instrutor Leonardo Moura Leitão(Cod3r), durante todo o projeto foram utilizados os widgets mais utilizados trazendo uma dinâmica de atuação real em relação ao que o dev flutter costuma passar no dia a dia.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+O aplicativo tem a finalidade de ajudar o usuário a registrar suas despesas pessoais com mais facilidade e agilidade já que só é necessário incluir apenas 3 coisas: o nome relacionado a despesa, o valor da despesa e a data que foi realizada aquela despesa.
